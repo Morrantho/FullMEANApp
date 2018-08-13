@@ -1,0 +1,12 @@
+// Angular Setup:
+
+* ng new appName
+* Open app.module.ts and import HttpClientModule and FormsModule
+and place their classnames within the imports array.
+* Compile your angular app using: ng build --watch
+
+// Service Setup:
+
+* ng g s serviceName
+* Edit app.modules.ts, importing your service and adding it to the providers array!
+* import HttpClient within your service and DEPENDENCY INJECT it in your ctor.

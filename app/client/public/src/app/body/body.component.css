@@ -1,0 +1,13 @@
+*{
+	padding: 0;
+	margin:0;
+	border: 0;
+}
+
+.BodyComponent{
+	background-color: green;
+	border: 1px dashed purple;
+	width: 100px;
+	height: 33vh;
+	display: inline-block;
+}
